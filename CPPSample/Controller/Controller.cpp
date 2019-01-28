@@ -20,6 +20,6 @@ void Controller :: start()
     cout << "This is how you access a variable: " << specialNumber << endl;
     string answer;
     cout << "Type in your name!" << endl;
-    cin >> answer;
+    getline(cin, answer);
     cout << "You typed: " << answer << endl;
 }
